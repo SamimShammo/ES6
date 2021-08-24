@@ -63,8 +63,12 @@ const company={
     }}
 };
 const css = company.name.css;
-console.log(css)
+// console.log(css)
 const {Html,  react, es, food} = company.name;
-console.log(Html,  react, css)
+console.log(company?.myPhone.phone?.alu?.a)
+
+const [s, w] = [23, 32]
+// console.log(s, w)
+
 
 
