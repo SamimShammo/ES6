@@ -47,12 +47,24 @@
 // // console.log(greetings)
 // const mYfunc= ()=> console.log('nayok!')
 // const  division=  num1, num2 => console.log(num1 /num2)
-const numbers=[10,20,30,40,50,60,70 ]
+// const numbers=[10,20,30,40,50,60,70 ]
 
-const newNUm = Math.max(...numbers)
-// console.log(newNUm)
-const cars=['toyota', 'honda','mercedes']; 
-const newCars= [...cars , 'ferrari'];
-console.log(newCars)
+// const newNUm = Math.max(...numbers)
+// // console.log(newNUm)
+// const cars=['toyota', 'honda','mercedes']; 
+// const newCars= [...cars , 'ferrari'];
+// console.log(newCars)
+
+
+const company={
+    myPhone:{phone:'I phone 11 pro max', ram:'16GB', rom:'512GB', price: 160000, color: 'Blue'},
+    name:{ Html: 'hypertext', css: 'Style CSS', react:'fremWorkd', javaScript:{
+       es: 'newScript', food: 'Fuchka'
+    }}
+};
+const css = company.name.css;
+console.log(css)
+const {Html,  react, es, food} = company.name;
+console.log(Html,  react, css)
 
 
