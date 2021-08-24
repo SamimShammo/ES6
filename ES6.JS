@@ -51,7 +51,8 @@ const numbers=[10,20,30,40,50,60,70 ]
 
 const newNUm = Math.max(...numbers)
 // console.log(newNUm)
-const cars=['toyota', 'honda','mercedes']; const newCars= [...cars , 'ferrari'];
+const cars=['toyota', 'honda','mercedes']; 
+const newCars= [...cars , 'ferrari'];
 console.log(newCars)
 
 
